@@ -1,0 +1,17 @@
+
+SAR Wind Field Estimation — Final Test Metrics
+================================================
+Test set      : 2023 held-out data
+Test samples  : 309
+Model         : ResNet-34 (2-channel SAR, split heads)
+Trained epoch : 65
+
+Wind Speed
+  MAE   : 4.394 m/s
+  RMSE  : 4.521 m/s
+
+Wind Direction
+  MAE   : 133.44°
+  RMSE  : 138.96°
+
+Best validation loss : 0.344051
